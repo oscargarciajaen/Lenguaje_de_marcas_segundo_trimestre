@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header class="cabecera">
+        <img class="cabecera__imagen" src="assets/logo_pokemon.png" alt="Logo de Pokemon">
+        <nav class="cabecera__navegador">
+            <input class="navegador__input"  type="" id="menu-bar">
+            <button class="navegador__boton">Buscar</button>
+            <ul class="navegador__ul">
+                <li class="ul__li"><a class="li__a" href="">Inicio</a></li>
+                <li class="ul__li"><a class="li__a" href="">Poketienda</a></li>
+                <li class="ul__li"><a class="li__a" href="">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contacto">
+                <form class="contacto__formulario">
+                    <h1 class="contacto__h1">Contacto</h1>
+                    <fieldset class="formulario__informacion-Personal">
+                        <label class="formulario__pregunta">Nombre y Apellidos</label>
+                        <input class="formulario-pregunta__text" type="text" name="nombre" maxlength="75" required>
+
+                        <label class="formulario__pregunta">Email</label>
+                        <input class="formulario-pregunta__text" type="email" name="email" autocomplete="off" required>
+
+                        <label class="formulario__pregunta" for="phone">Número de teléfono:</label>
+                        <input class="formulario-pregunta__text" type="tel" id="phone" name="phone" placeholder="+34 XXXXXXXXX" pattern="^\+\d{1,3} \d{9}$" required>
+
+                        <label class="formulario__pregunta">Sexo</label>
+                        <input type="radio" name="sexo" value="hombre" required>Hombre
+                        <input type="radio" name="sexo" value="mujer" required>Mujer
+                        <input type="radio" name="sexo" value="otro" required>Prefiero no decirlo
+                    </fieldset>
+
+                    <fieldset class="formulario__incidencia">
+                        <label class="formulario__pregunta">Incidencia</label>
+                        <input type="checkbox" name="indicador" value="sobre">Problema con el sobre
+                        <input type="checkbox" name="indicador" value="pedido">Problema con el pedido
+                        <input type="checkbox" name="indicador" value="localizar">Problema al localizar el pedido
+                        <input type="checkbox" name="indicador" value="garantia">Problema con la garantía
+                        <input type="checkbox" name="indicador" value="devolucion">Problema con la devolución del pedido
+
+                        <label class="formulario__pregunta">Mensaje</label>
+                        <textarea name="mensaje" minlength="100" maxlength="500" placeholder="Introduce tu mensaje ..." required></textarea>
+                    </fieldset>
+                    <button type="submit">Enviar</button>
+                </form>
+        </section>
+        <section class="noticias">
+            <h1 class="noticias__h1">viva el vety</h1>
+            <img src="">
+            <img src="">
+            <img src="">
+        </section>
+    </main>
+    <footer class="pie-de-pagina">
+        <section class="pie-de-pagina__section">
+            <ul class="section__ul-licencia">
+                <li class="article-licencia__li">© 2025, POKETIENDA - La Tienda Pokémon</li>
+                <li class="article-licencia__li">TM, ® Nintendo</li>
+                <li class="article-licencia__li">The Pokémon Company</li>
+
+            </ul>
+            <article class="pie-de-pagina__article">
+                <h1 class="article__titulo">Información y Servicios</h1>
+                <ul class="articulo__ul">
+                    <li class="ul__li-info-servicios">Envío gratis</li>
+                    <li class="ul__li-info-servicios">Distribuidor mayorista</li>
+                    <li class="ul__li-info-servicios">Política de cookies</li>
+                    <li class="ul__li-info-servicios">Política de privacidad</li>
+                </ul>
+            </article>
+            <section class="pie-de-pagina__pago">
+                <h1 class="pago__titulo">Métodos de pago:</h1>
+                <ul class="section__ul-imagenes">
+                    <li class="ul-imagenes__li"><img class="p__paypal" src="assets/PayPal.png"></li>
+                    <li class="ul-imagenes__li"><img class="p__mastercard" src="assets/mastercard.png"></li>
+                    <li class="ul-imagenes__li"><img class="p__visa" src="assets/visa_logo.jpg"></li>
+                    <li class="ul-imagenes__li"><img class="p__gpay" src="assets/GPay.jpg"></li>
+                </ul>
+            </section>
+        </section>
+    </footer>
+</body>
+</html>
