@@ -12,6 +12,8 @@
     --fuente: none;
     --fuente_cabecera_pie: white;
     --fondo: none;
+    --fondo_checkbox: #c6c6c6;
+    --sombra_checkbox: rgba(0,0,0,.2)
 }
 
 :root {
@@ -159,11 +161,71 @@ main {
     padding: 1rem 1rem;
 }
 
+.formulario__sexo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--fuente);
+    margin: 1rem;
+}
 
+input[type="radio"] {
+    position: relative;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 0.125rem solid var(--azul);
+    background-color: var(--fuente_cabecera_pie);
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
 
+input[type="radio"]:checked::after {
+    content: "";
+    position: absolute;
+    top: 0.250rem;
+    left: 0.250rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: var(--fuente_cabecera_pie);
+}
 
+input[type="checkbox"] {
+    position: relative;
+    width: 2rem;
+    height: 1rem;
+    -webkit-appearance: none;
+    background-color: var(--fondo_checkbox);
+    outline: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 0.5rem;
+    transition: 0.3s;
+}
 
+input:checked[type="checkbox"] {
+    background-color: var(--azul);
+}
 
+input[type="checkbox"]:before {
+    content: '';
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 2rem;
+    top: 0;
+    left: 0;
+    background: var(--amarillo);
+    transform: scale(1.1);
+    box-shadow: 0 0.125rem 0.550rem var(--sombra_checkbox);
+    transition: 0.3s;
+
+}
+
+input:checked[type="checkbox"]:before {
+    left: 1rem;
+}
 
 
 
