@@ -105,15 +105,21 @@ main {
 
 /* Página de formulario */
 
-.contacto{
-    margin-top: 5rem;
+.contacto {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-image: url('../assets/pokemon-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2rem;
 }
+
 
 .contacto__formulario {
     border: solid 0.125rem;
+    background: var(--fuente_cabecera_pie);
     border-radius: 1rem;
     display: flex;
     flex-wrap: wrap;
@@ -161,7 +167,7 @@ main {
     padding: 1rem 1rem;
 }
 
-.formulario__sexo {
+.formulario__texto {
     font-weight: bold;
     font-size: 1.5rem;
     color: var(--fuente);
@@ -192,7 +198,17 @@ input[type="radio"]:checked::after {
     background-color: var(--fuente_cabecera_pie);
 }
 
+.formulario__incidencia {
+    border: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 input[type="checkbox"] {
+    margin-left: 0.5rem;
     position: relative;
     width: 2rem;
     height: 1rem;
@@ -220,16 +236,33 @@ input[type="checkbox"]:before {
     transform: scale(1.1);
     box-shadow: 0 0.125rem 0.550rem var(--sombra_checkbox);
     transition: 0.3s;
-
 }
 
 input:checked[type="checkbox"]:before {
     left: 1rem;
 }
 
+.incidencia__mensaje {
+    width: 50%;
+    height: 15rem;
+    background-color: var(--amarillo);
+    color: var(--azul);
+    font-weight: bold;
+    border-radius: 0.5rem;
+    padding: 1rem 1rem;
+    resize: none;
+    margin-bottom: 2rem
+}
 
-
-
+.contacto__enviar {
+    margin: 2rem;
+    background-color: var(--amarillo);
+    color: var(--azul);
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+}
 
 
 
@@ -371,4 +404,32 @@ input:checked[type="checkbox"]:before {
     height: 50%;
     border-radius: 0.5rem;
     object-fit: cover;
+}
+
+.empresa {
+    background: var(--azul);
+    display: flex;
+    flex-wrap: wrap;
+    height: 40rem;
+}
+
+.empresa__h1 {
+    margin: 2rem;
+    height: 2rem;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    color: var(--fuente_cabecera_pie);
+}
+
+.section__ul-imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 1rem;
+    margin-top: 2rem;
 }
