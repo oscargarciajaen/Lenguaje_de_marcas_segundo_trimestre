@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Inicio</title>
+    <title>Carrito</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
@@ -20,57 +20,86 @@
     </nav>
 </header>
 <main>
-    <section class="bienvenida">
-        <article class="bienvenida__articulo">
-            <h1 class="bienvenida__titulo">Bienvenido a la Pokétienda</h1>
-            <p class="bienvenida__parrafo">
-                Bienvenido a Poketienda, tu tienda online de confianza para todas las cartas de Pokémon.<br>
-                <br class="parrafo__salto">
-                Aquí podrás encontrar desde las cartas más comunes hasta las más raras y exclusivas, actualizadas constantemente para que siempre tengas las últimas novedades a tu alcance.<br>
-                <br class="parrafo__salto">
-                Participa en nuestros eventos y torneos virtuales, donde podrás conectarte con otros jugadores y perfeccionar tus habilidades.<br>
-                <br class="parrafo__salto">
-                Además, nuestros expertos están disponibles para asesorarte en la construcción de tu mazo y valorar tus cartas.<br>
-                <br class="parrafo__salto">
-                No te pierdas nuestras ofertas exclusivas y promociones especiales en productos y ediciones limitadas. Realiza tus compras de manera segura y cómoda desde tu hogar, con envíos rápidos y seguros a toda España.<br>
-                <br class="parrafo__salto">
-                Para cualquier consulta, contáctanos a través de nuestra página web o redes sociales. ¡Estamos aquí para ayudarte a mejorar tu colección de Pokémon!
-            </p>
+    <section class="carrito">
+        <h1 class="carrito__titulo">Tu Carrito de Compras</h1>
+        <ul class="carrito__lista">
+            <li class="carrito__item">
+                <img class="item__imagen" src="./assets/Producto1.png" alt="Producto 1">
+                <article class="item__detalle">
+                    <h2 class="detalle__nombre">Elite Trainer Box PE</h2>
+                    <p class="detalle__precio">95 €</p>
+                </article>
+                <button class="item__eliminar">Eliminar</button>
+            </li>
+            <li class="carrito__item">
+                <img class="item__imagen" src="./assets/Producto2.png" alt="Producto 2">
+                <article class="item__detalle">
+                    <h2 class="detalle__nombre">Battle Box LO</h2>
+                    <p class="detalle__precio">35 €</p>
+                </article>
+                <button class="item__eliminar">Eliminar</button>
+            </li>
+            <li class="carrito__item">
+                <img class="item__imagen" src="./assets/Producto3.png" alt="Producto 3">
+                <article class="item__detalle">
+                    <h2 class="detalle__nombre">Primal Kyogre EX - Full Art</h2>
+                    <p class="detalle__precio">195 €</p>
+                </article>
+                <button class="item__eliminar">Eliminar</button>
+            </li>
+        </ul>
+        <article class="carrito__resumen">
+            <p class="resumen__total">Total: <span class="total__precio">325 €</span></p>
+            <button class="resumen__comprar">Proceder al Pago</button>
         </article>
     </section>
-    <section class="amigo">
-        <article class="amigo__articulo">
-            <h1 class="amigo__titulo">Invita a un Amigo</h1>
-            <p class="amigo__parrafo">
-                Invita a un amigo para conseguir un 5% de descuento en compras superiores a 150€
-            </p>
-            <button class="amigo__boton">Invitar</button>
-        </article>
+    <section class="productos-relacionados">
+        <h2 class="relacionados__titulo">Productos Relacionados</h2>
+        <section class="relacionados__lista">
+            <article class="relacionados__producto">
+                <img class="producto__imagen-relacionado" src="./assets/umbreon.jpg" alt="Producto Relacionado 1">
+                <h3 class="producto__nombre">Umbreon EX - Full Art</h3>
+                <p class="producto__precio">3100 €</p>
+                <button class="producto__boton">Agregar al Carrito</button>
+            </article>
+            <article class="relacionados__producto">
+                <img class="producto__imagen-relacionado" src="./assets/etb_primal_cash.jpg" alt="Producto Relacionado 2">
+                <h3 class="producto__nombre">Elite Trainer Box PC</h3>
+                <p class="producto__precio">2000 €</p>
+                <button class="producto__boton">Agregar al Carrito</button>
+            </article>
+            <article class="relacionados__producto">
+                <img class="producto__imagen-relacionado" src="./assets/giratina_fullArt.jpg" alt="Producto Relacionado 3">
+                <h3 class="producto__nombre">Giratina V - Full Art</h3>
+                <p class="producto__precio">550 €</p>
+                <button class="producto__boton">Agregar al Carrito</button>
+            </article>
+        </section>
     </section>
     <section class="noticias">
         <h1 class="noticias__h1">Últimas Noticias</h1>
         <article class="noticias__articulo">
-            <img class="noticias__imagen" src="./assets/noticia1.png" alt="noticia">
+            <img class="noticias__imagen" src="./assets/noticia1.png" alt="noticia1">
             <h1 class="noticias__titulo">Evento de Flamingo</h1>
             <p class="noticias__informacion">17 de enero de 2025 <br> <br>
                 Encuentra bandadas de Flamigo en las apariciones masivas de Pokémon Escarlata y Pokémon Púrpura
             </p>
         </article>
         <article class="noticias__articulo">
-            <img class="noticias__imagen" src="./assets/prismatics_evolutions_etb.jpg" alt="noticia">
+            <img class="noticias__imagen" src="./assets/prismatics_evolutions_etb.jpg" alt="noticia2">
             <h1 class="noticias__titulo">Precios Desorbitados</h1>
             <p class="noticias__informacion">18 de enero de 2025 <br> <br>
                 La carta de Umbreon full art de la colección de Evoluciones Prismaticas llega a alcanzar en la mejor de sus versiones un precio de 7.000 euros en <a class="informacion__enlace" href="https://www.cardmarket.com/es/Pokemon">Cardmarket</a>
             </p>
         </article>
         <article class="noticias__articulo">
-            <img class="noticias__imagen" src="./assets/Lugia_tcg.jpg" alt="noticia">
+            <img class="noticias__imagen" src="./assets/Lugia_tcg.jpg" alt="noticia3">
             <h1 class="noticias__titulo">Rumores en TCGP</h1>
             <p class="noticias__informacion">19 de enero de 2025 <br> <br>
                 Los jugadores de Pokémon TCG Poket especulan que la próxima expansión sobre la segunda generacion de la saga, trayendo así los legendarios Lugia y Ho-oh en forma de sobre con un posible tercer sobre aún por ver.
             </p>
         </article>
-</section>
+    </section>
 </main>
 <footer class="pie-de-pagina">
     <section class="pie-de-pagina__section">
