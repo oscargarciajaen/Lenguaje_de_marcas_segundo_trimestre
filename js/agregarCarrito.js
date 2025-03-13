@@ -1,4 +1,4 @@
-/* document.addEventListener("DOMContentLoaded", () => {
+/*document.addEventListener("DOMContentLoaded", () => {
     let carritoLista = document.querySelector(".carrito__lista"); // Contenedor de productos
     let resumenCarrito = document.querySelector(".carrito__resumen"); // Resumen del carrito
 
