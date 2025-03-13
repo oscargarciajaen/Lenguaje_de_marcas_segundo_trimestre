@@ -2,7 +2,7 @@
 
 En este archivo JavaScript se encuentra el código necesario para eliminar una sección de la página web.
 
-[EliminarSeccion.js](js/EliminarSeccion.js)
+[EliminarSeccion.js](../js/EliminarSeccion.js)
 
 ## Explicación del código
 

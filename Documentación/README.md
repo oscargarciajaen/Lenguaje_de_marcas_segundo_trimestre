@@ -97,7 +97,7 @@ Con esta estructura, **Pokétienda** proporciona una experiencia sencilla y func
 
 Se utilizó la herramienta de validación online: [W3C Validator](https://validator.w3.org/). Los archivos HTML fueron analizados y, sorprendentemente, no se encontraron errores graves.
 
-![ValidaciónHTML](assets/html_validado.png)
+![ValidaciónHTML](../assets/html_validado.png)
 
 ## Herramientas utilizadas
 
@@ -118,11 +118,11 @@ Se utilizó un único archivo CSS estructurado bajo la metodología BEM (Bloque,
 
 Además, el archivo CSS fue validado utilizando la herramienta online [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) para asegurar su calidad y conformidad con los estándares actuales.
 
-![ValidaciónCSS](assets/css_validado.png)
+![ValidaciónCSS](../assets/css_validado.png)
 
 ## Variables
 
-![Variables](assets/variables.png)
+![Variables](../assets/variables.png)
 
 ## Animaciones
 

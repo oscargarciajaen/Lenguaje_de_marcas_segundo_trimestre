@@ -2,7 +2,7 @@
 
 En este archivo JavaScript se encuentra el código necesario para modificar los estilos de los títulos de la tienda.
 
-[CambiarColores.js](js/CambiarColores.js)
+[CambiarColores.js](../js/CambiarColores.js)
 
 ## Explicación del código
 

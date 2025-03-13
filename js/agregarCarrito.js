@@ -44,4 +44,4 @@
     } else {
         console.error("No se encontró el contenedor de la lista del carrito o el resumen.");
     }
-});
+});*/

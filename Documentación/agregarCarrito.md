@@ -2,7 +2,7 @@
 
 En este archivo JavaScript se encuentra el código necesario para añadir un elemento al carrito.
 
-[agregarCarrito.js](js/agregarCarrito.js)
+[agregarCarrito.js](../js/agregarCarrito.js)
 
 ## Explicación del código
 

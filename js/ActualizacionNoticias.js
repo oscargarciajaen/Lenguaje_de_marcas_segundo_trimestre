@@ -39,4 +39,4 @@
     });
 
     console.log("Noticias actualizadas correctamente.");
-});
+});*/

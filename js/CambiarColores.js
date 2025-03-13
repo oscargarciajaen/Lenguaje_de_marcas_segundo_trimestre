@@ -7,4 +7,4 @@
     });
 
     console.log("Estilos de los títulos actualizados.");
-});
+});*/
