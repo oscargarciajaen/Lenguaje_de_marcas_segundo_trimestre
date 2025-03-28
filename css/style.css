@@ -17,6 +17,7 @@
     --lost_origin: #6c1413;
     --Prismatics_evolutions: #fbf5e6;
     --color_negro: black;
+    --nueva_tienda: #f39c12;
 }
 
 :root {
@@ -1026,27 +1027,27 @@ input:checked[type="checkbox"]:before {
 
     .tienda__h1 {
         font-size: 3rem;
-        margin-top: 1rem;  /* Reduce el margen superior */
-        margin-bottom: 0.5rem;  /* Reduce el margen inferior */
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
     }
 
     .tienda__producto {
-        flex: 0 0 30%;  /* Asegura que cada producto ocupe el 30% del ancho del contenedor */
-        height: 27rem;  /* Aumenta la altura del artículo */
-        margin: 1rem 0.5rem;  /* Ajusta los márgenes */
+        flex: 0 0 30%;
+        height: 27rem;
+        margin: 1rem 0.5rem;
     }
 
     .tienda__lostOrigin,
     .tienda__Prismatics-evolutions,
     .tienda__PrimalCash {
         display: flex;
-        flex-wrap: wrap;  /* Mantiene los productos en línea, incluso en pantallas más pequeñas */
+        flex-wrap: wrap;
         justify-content: space-around;
     }
 
     .producto__titulo {
         font-size: 1.25rem;
-        margin-top: 0.5rem;  /* Reduce el margen superior del título */
+        margin-top: 0.5rem;
     }
 
     .producto__precio {
@@ -1055,13 +1056,13 @@ input:checked[type="checkbox"]:before {
 
     .producto__descripcion,
     .producto__p {
-        font-size: 0.875rem;  /* Ajusta el tamaño del texto */
-        margin: 0.5rem;  /* Ajusta los márgenes */
+        font-size: 0.875rem;
+        margin: 0.5rem;
     }
 
     .producto__compra {
         width: auto;
-        padding: 0.5rem 1rem;  /* Reduce el tamaño del botón */
+        padding: 0.5rem 1rem;
         margin-top: 0.5rem;
     }
 }
@@ -1074,19 +1075,19 @@ input:checked[type="checkbox"]:before {
 
     .tienda__h1 {
         font-size: 2.5rem;
-        margin-top: 1rem;  /* Reduce el margen superior */
-        margin-bottom: 0.5rem;  /* Reduce el margen inferior */
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
     }
 
     .tienda__producto {
-        flex: 0 0 48%;  /* Asegura que cada producto ocupe el 48% del ancho del contenedor */
-        height: 22rem;  /* Aumenta la altura del artículo */
-        margin: 0.5rem 0.25rem;  /* Ajusta los márgenes */
+        flex: 0 0 48%;
+        height: 22rem;
+        margin: 0.5rem 0.25rem;
     }
 
     .producto__titulo {
         font-size: 1rem;
-        margin-top: 0.5rem;  /* Reduce el margen superior del título */
+        margin-top: 0.5rem;
     }
 
     .producto__precio {
@@ -1095,13 +1096,13 @@ input:checked[type="checkbox"]:before {
 
     .producto__descripcion,
     .producto__p {
-        font-size: 0.75rem;  /* Ajusta el tamaño del texto */
-        margin: 0.5rem;  /* Ajusta los márgenes */
+        font-size: 0.75rem;
+        margin: 0.5rem;
     }
 
     .producto__compra {
         width: auto;
-        padding: 0.25rem 0.5rem;  /* Reduce el tamaño del botón */
+        padding: 0.25rem 0.5rem;
         margin-top: 0.5rem;
     }
 }
@@ -1114,19 +1115,19 @@ input:checked[type="checkbox"]:before {
 
     .tienda__h1 {
         font-size: 2rem;
-        margin-top: 0.5rem;  /* Reduce el margen superior */
-        margin-bottom: 0.25rem;  /* Reduce el margen inferior */
+        margin-top: 0.5rem;
+        margin-bottom: 0.25rem;
     }
 
     .tienda__producto {
-        flex: 0 0 90%;  /* Asegura que cada producto ocupe el 90% del ancho del contenedor */
-        height: 20rem;  /* Aumenta la altura del artículo */
-        margin: 0.5rem 0.25rem;  /* Ajusta los márgenes */
+        flex: 0 0 90%;
+        height: 20rem;
+        margin: 0.5rem 0.25rem;
     }
 
     .producto__titulo {
         font-size: 0.875rem;
-        margin-top: 0.5rem;  /* Reduce el margen superior del título */
+        margin-top: 0.5rem;
     }
 
     .producto__precio {
@@ -1135,13 +1136,13 @@ input:checked[type="checkbox"]:before {
 
     .producto__descripcion,
     .producto__p {
-        font-size: 0.625rem;  /* Ajusta el tamaño del texto */
-        margin: 0.25rem;  /* Ajusta los márgenes */
+        font-size: 0.625rem;
+        margin: 0.25rem;
     }
 
     .producto__compra {
         width: auto;
-        padding: 0.25rem 0.5rem;  /* Reduce el tamaño del botón */
+        padding: 0.25rem 0.5rem;
         margin-top: 0.25rem;
     }
 }
@@ -1151,7 +1152,7 @@ input:checked[type="checkbox"]:before {
 /* Pantallas grandes (1150px y menores) */
 @media (max-width: 1150px) {
     .noticias {
-        height: auto; /* Permitir que la altura se ajuste al contenido */
+        height: auto;
     }
 
     .noticias__h1 {
@@ -1161,7 +1162,7 @@ input:checked[type="checkbox"]:before {
     }
 
     .noticias__articulo {
-        width: 30%; /* Ajusta el ancho de los artículos */
+        width: 30%;
         height: 27rem;
         margin-left: 1rem;
         margin-right: 1rem;
@@ -1191,7 +1192,7 @@ input:checked[type="checkbox"]:before {
     }
 
     .noticias__articulo {
-        width: 48%; /* Ocupa la mitad del ancho en tablets */
+        width: 48%;
         height: 22rem;
         margin-left: 0.5rem;
         margin-right: 0.5rem;
@@ -1220,7 +1221,7 @@ input:checked[type="checkbox"]:before {
     }
 
     .noticias__articulo {
-        width: 90%; /* Los artículos ocupan casi todo el ancho */
+        width: 90%;
         height: 20rem;
         margin-left: 0.25rem;
         margin-right: 0.25rem;
@@ -1240,19 +1241,16 @@ input:checked[type="checkbox"]:before {
     }
 }
 
-/*Media queries footer*/
-
-/* Pantallas grandes (1150px y menores) */
 @media (max-width: 1150px) {
     .pie-de-pagina {
-        height: auto; /* Ajuste automático según contenido */
-        flex-direction: column; /* Asegura mejor distribución */
+        height: auto;
+        flex-direction: column;
         align-items: center;
         padding: 1rem 0;
     }
 
     .pie-de-pagina__article {
-        width: 45%; /* Reduce el ancho para mejorar la organización */
+        width: 45%;
         text-align: center;
         margin-bottom: 1rem;
     }
@@ -1275,7 +1273,6 @@ input:checked[type="checkbox"]:before {
     }
 }
 
-/* Tablets (768px y menores) */
 @media (max-width: 768px) {
     .pie-de-pagina {
         flex-direction: column;
@@ -1289,7 +1286,7 @@ input:checked[type="checkbox"]:before {
     }
 
     .pie-de-pagina__article {
-        width: 80%; /* Se expande para ocupar más espacio */
+        width: 80%;
         text-align: center;
     }
 
@@ -1311,7 +1308,6 @@ input:checked[type="checkbox"]:before {
     }
 }
 
-/* Móviles (480px y menores) */
 @media (max-width: 480px) {
     .pie-de-pagina {
         height: auto;
@@ -1341,3 +1337,70 @@ input:checked[type="checkbox"]:before {
         font-size: 0.75rem;
     }
 }
+
+.tienda {
+    text-align: center;
+    padding: 2rem;
+}
+
+.tienda__titulo {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.tienda__contenedor {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.producto {
+    background: var(--fuente_cabecera_pie);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem var(--color_negro);
+    text-align: center;
+}
+
+.producto__imagen {
+    width: 100%;
+    max-height: 15rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.producto__nombre {
+    font-size: 1.5rem;
+    margin: 1rem 0 0.5rem;
+}
+
+.producto__precio {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--color_primario);
+    margin-bottom: 1rem;
+}
+
+.producto__boton {
+    display: inline-block;
+    background: var(--nueva_tienda);
+    color: var(--fuente_cabecera_pie);
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.producto__boton:hover {
+    background: var(--nueva_tienda);
+}
+
+@media (max-width: 600px) {
+    .tienda__contenedor {
+        grid-template-columns: 1fr;
+    }
+}
+
