@@ -1380,6 +1380,7 @@ input:checked[type="checkbox"]:before {
     font-weight: bold;
     color: var(--color_primario);
     margin-bottom: 1rem;
+    padding-right: 2rem;
 }
 
 .producto__boton {
