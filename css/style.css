@@ -1405,3 +1405,11 @@ input:checked[type="checkbox"]:before {
     }
 }
 
+.error-message {
+    color: red;
+    display: block;
+    margin-top: 5px;
+    font-size: 0.9em;
+    text-align: center;
+    width: 100%;
+}
